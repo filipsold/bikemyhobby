@@ -8,17 +8,23 @@
     border-bottom: 1px ridge;
     min-height:400px;
 }
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: serif;
+}
+
 .footer{
     background-color: rgb(35, 212, 212);
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
-    padding:30px 10px 5px 10px;
+    padding:25px 10px 0px 10px;
     margin:0px auto;
     background: rgb(35, 212, 212);
-    color:black;
 }
+
 address{
     font-size:80%;
     margin:0px;
@@ -32,7 +38,7 @@ address{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
 
 #carouselButtons {
@@ -42,29 +48,22 @@ address{
     z-index: +1;
 }
 .carousel-control-next-icon{
-<<<<<<< HEAD
-    background-color: rgb(35, 212, 212);
-=======
     background-color:  rgb(35, 212, 212);
->>>>>>> e58b7635308f638d9eff850c67f0a3fa2ee35cce
 }
 .carousel-control-prev-icon{
     background-color: rgb(35, 212, 212);
 }
-<<<<<<< HEAD
-#reservemodal{ left: 10px;
-    top: 10px;
 
+.col1 {
+    text-align: center;
+    font-weight: 500;
+    vertical-align: bottom;
 }
-=======
->>>>>>> e58b7635308f638d9eff850c67f0a3fa2ee35cce
 .par{
     text-align: center;
     font-size: large;
+    font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
-<<<<<<< HEAD
-}
-=======
 }
 
 h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
@@ -339,4 +338,3 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 .product-grid9:hover .add-to-cart{opacity:1;bottom:0}
 @media only screen and (max-width:990px){.product-grid9{margin-bottom:30px}
 }
->>>>>>> e58b7635308f638d9eff850c67f0a3fa2ee35cce
