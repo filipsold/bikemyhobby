@@ -80,19 +80,108 @@
             </div>
         </div>
     </div>
-    <header class="jumbotron">
-        <div class="col col-sm">
-            <img src="images/logo.png" class="img-fluid" >
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Book your tour </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <lable class="col-12 col-sm-3">Number of people</lable>
+                            <div class="col col-sm">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option1" id="inlineRadio1">
+                                    <label class="form-check-lable" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option2" id="inlineRadio2">
+                                    <label class="form-check-lable" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option3" id="inlineRadio3">
+                                    <label class="form-check-lable" for="inlineRadio3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option4" id="inlineRadio4">
+                                    <label class="form-check-lable" for="inlineRadio4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option5" id="inlineRadio5">
+                                    <label class="form-check-lable" for="inlineRadio5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        value="option6" id="inlineRadio6">
+                                    <label class="form-check-lable" for="inlineRadio6">6</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable class="col-12 col-sm-3">Date and time</lable>
+                            <div class="input-group col-12 col-sm-4">
+                                <!--<div class="input-group-prepend">
+                                    <span class="input-group-text fa fa-calendar"></span>
+                                </div>-->
+                                <input type="date" class="form-control" name="myDate">
+                            </div>
+                            <div class="input-group col-12 col-sm-4">
+                                <!--<div class="input-group-prepend">
+                                    <span class="input-group-text fa fa-clock-o"></span>
+                                    
+                                </div>-->
+                                <input type="time" class="form-control" name="myTime">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable class="col-12 col-sm-3">Prοfessional cameraman </lable>
+                            <div class="col-12 col-sm-3">
+                                <div class="btn-group">
+                                    <lable class="btn btn-success">
+                                        <input id="radioYes" type="radio" name="myradio"> Yes
+                                    </lable>
+                                    <lable class="btn btn-danger">
+                                        <input id="radioNo" type="radio" name="myradio"> No
+                                    </lable>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        Submit
+                    </button>
+                </div>
+            </div>
         </div>
+    </div>
+    <header class="jumbotron">
         <div class="container">
-            <div class="row row-header align-items-center">
+            <div class="row row-header align-items-center"></div>
+            <div class="col col-sm">
+                <img src="images/logo.png" class="img-fluid">
+            </div>
                 <div>
                     <!-- <h1>Bike my hobby</h1> -->
-                    <!-- <p>We combine experience with creativity to create innovative tastes based on classic chocolate -->
-                    <!-- recipes. Our creations will travel you in the chocolate world!</p> -->
+                    
                 </div>
-                <div>
-                </div>
+                <div class="col-12 col-sm-5 m-auto">
+                    <p class="par">With bikemyhobby we have been offering bike adventure tours in the beautiful city of Athens</p>
+                    <a type="button" class="btn btn-info btn-sm btn-block" data-toggle="modal"
+                    data-placement="bottom" href="#reserveModal">
+                    Book you tour now
+                </a>
             </div>
         </div>
     </header>
@@ -161,9 +250,21 @@
             </div>
         </div>
         <div class="row row-content align-items-center">
-            <div class="com-sm-4 col-md-3">
-                <h3>Our famous chocolates</h3>
-            </div>
+            <ul class="col-4 list-unstyled">
+                <li>
+                    <img src="images/mount.jpg" class="img-fluid">
+                </li>
+            </ul>
+            <ul class="col-4 list-unstyled">
+                <li>
+                    <img src="images/city.jpg" class="img-fluid">
+                </li>
+            </ul>
+            <ul class="col-4 list-unstyled">
+                <li>
+                    <img src="images/road.jpg" class="img-fluid">
+                </li>
+            </ul>
             <div class="com-sm col-md">
                 <!-- <h2>85% DARK CHOCOLATE</h2> -->
                 <!-- <p>Dark chocolate with no added sugar. Here you can taste the flavor of cocoa beans.</p> -->

@@ -1,9 +1,9 @@
-$(document).ready(function(){
+$(document).docready(function(){
     $("#mycarousel").carousel( { interval: 2000 } );
-    $("#carousel-pause").click(function(){
+    $("#carousel-pause").onclick(function(){
         $("#mycarousel").carousel('pause');
     });
-    $("#carousel-play").click(function(){
+    $("#carousel-play").onclick(function(){
         $("#mycarousel").carousel('cycle');
     });
 });

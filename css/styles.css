@@ -27,15 +27,14 @@ address{
 .bg-custom {
     background-color: aqua;
 }
-.carousel {
-    background:aqua;
-}
 
 .carousel-item img {
-    width: 50%;
-    margin: auto;
-   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
 #carouselButtons {
     right:0px;
     position: absolute;
@@ -43,8 +42,17 @@ address{
     z-index: +1;
 }
 .carousel-control-next-icon{
-    background-color: red;
+    background-color: rgb(35, 212, 212);
 }
 .carousel-control-prev-icon{
-    background-color: red;
+    background-color: rgb(35, 212, 212);
+}
+#reservemodal{ left: 10px;
+    top: 10px;
+
+}
+.par{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
