@@ -40,6 +40,11 @@ address{
   width: 150px;
 }
 
+.card-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
 /* .carousel-item img {
     display: block;
   margin-left: auto;
